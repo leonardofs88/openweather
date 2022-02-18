@@ -10,6 +10,8 @@ import UIKit
 
 class ForecastView: BaseView {
     
+    @IBOutlet weak var chartView: UIView!
+    
     @IBOutlet weak var forecastCollectionView: UICollectionView!
     
     var viewModel: ForecastViewModel? {
@@ -33,6 +35,16 @@ class ForecastView: BaseView {
     private func configureView() {
         DispatchQueue.main.async { [weak self] in
             guard let self = self else { return }
+            
+            let newChartView = ChartView()
+            newChartView.backgroundColor = UIColor(hue: 0.1333, saturation: 0.15, brightness: 1, alpha: 1.0)
+            newChartView.data = self.viewModel?.groupedDates?[0]
+            
+            self.chartView.addSubview(newChartView)
+            newChartView.snp.makeConstraints { make in
+                make.top.bottom.left.right.equalTo(self.chartView)
+            }
+            
             let nib = UINib(nibName: "ForecastItemViewCell", bundle: nil)
             self.forecastCollectionView.delegate = self
             self.forecastCollectionView.dataSource = self

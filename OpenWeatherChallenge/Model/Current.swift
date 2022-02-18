@@ -33,7 +33,7 @@ struct Current: Decodable {
     var hour: String {
        let date = Date(timeIntervalSince1970: self.dt ?? 0.0)
        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "hh"
+        dateFormatter.dateFormat = "HH"
        dateFormatter.timeZone = .current
        return dateFormatter.string(from: date)
     }

@@ -25,11 +25,7 @@ class ViewController: UIViewController {
     lazy var currentWeatherView: CurrentWeatherView = {
         return CurrentWeatherView.prepare()
     }()
-    
-    lazy var chartView: ChartView = {
-        return ChartView.prepare()
-    }()
-    
+
     lazy var forecastView: ForecastView = {
         return ForecastView.prepare()
     }()
@@ -54,23 +50,16 @@ class ViewController: UIViewController {
             self.currentWeatherView.viewModel = CurrentWeatherViewModel(service: ServiceProvider.service, currentWeather: weather, isDay: weather.isDay)
             self.contentView.addSubview(self.currentWeatherView)
             self.currentWeatherView.snp.makeConstraints { make in
-                make.top.equalTo(self.contentView.snp.top).offset(40)
+                make.top.equalTo(self.contentView.snp.top).offset(50)
                 make.left.equalTo(self.contentView.snp.left)
                 make.right.equalTo(self.contentView.snp.right)
                 make.height.equalTo(140)
             }
             
-            self.contentView.addSubview(self.chartView)
-            self.chartView.snp.makeConstraints { make in
-                make.top.equalTo(self.currentWeatherView.snp.bottom).offset(16)
-                make.left.equalTo(self.contentView.snp.left)
-                make.right.equalTo(self.contentView.snp.right)
-                make.height.equalTo(180)
-            }
             self.forecastView.viewModel = ForecastViewModel(service: ServiceProvider.service)
             self.contentView.addSubview(self.forecastView)
             self.forecastView.snp.makeConstraints { make in
-                make.top.equalTo(self.chartView.snp.bottom).offset(16)
+                make.top.equalTo(self.currentWeatherView.snp.bottom).offset(16)
                 make.left.equalTo(self.contentView.snp.left)
                 make.right.equalTo(self.contentView.snp.right)
                 make.bottom.equalTo(self.contentView.snp.bottom)

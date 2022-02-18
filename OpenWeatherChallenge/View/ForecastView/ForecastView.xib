@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ForecastView" customModule="OpenWeatherChallenge" customModuleProvider="target">
             <connections>
+                <outlet property="chartView" destination="Jv6-xT-s60" id="e2h-Yl-J44"/>
                 <outlet property="forecastCollectionView" destination="TPa-B0-dFm" id="Y8O-CR-Xn3"/>
                 <outlet property="view" destination="iN0-l3-epB" id="0ym-dp-2li"/>
             </connections>
@@ -18,8 +19,15 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jv6-xT-s60" userLabel="Chart View">
+                    <rect key="frame" x="15" y="15" width="384" height="233"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="233" id="cuj-vA-N3i"/>
+                    </constraints>
+                </view>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="TPa-B0-dFm" userLabel="Forecast Collection View">
-                    <rect key="frame" x="15" y="0.0" width="384" height="896"/>
+                    <rect key="frame" x="15" y="263" width="384" height="633"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="5" id="9b1-2t-Rff">
                         <size key="itemSize" width="120" height="180"/>
@@ -32,8 +40,11 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="TPa-B0-dFm" secondAttribute="trailing" constant="15" id="7Ne-YB-ROq"/>
+                <constraint firstItem="TPa-B0-dFm" firstAttribute="top" secondItem="Jv6-xT-s60" secondAttribute="bottom" constant="15" id="BFz-yE-MXL"/>
+                <constraint firstAttribute="trailing" secondItem="Jv6-xT-s60" secondAttribute="trailing" constant="15" id="Ga2-L7-ido"/>
                 <constraint firstAttribute="bottom" secondItem="TPa-B0-dFm" secondAttribute="bottom" id="QDM-la-N5z"/>
-                <constraint firstItem="TPa-B0-dFm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ac3-vP-wLs"/>
+                <constraint firstItem="Jv6-xT-s60" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="Wkn-4E-3TJ"/>
+                <constraint firstItem="Jv6-xT-s60" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="fG6-m4-BdB"/>
                 <constraint firstItem="TPa-B0-dFm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="xq6-kY-X1N"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
