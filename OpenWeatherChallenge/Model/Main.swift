@@ -7,25 +7,12 @@
 
 import Foundation
 
-struct Main: Decodable {
+struct Main: Decodable, Equatable {
     let dt: Double?
     let sunrise: Double?
     let sunset: Double?
     let temp: Double?
-    let feelsLike: Double?
-    let tempMin: Double?
-    let tempMax: Double?
-    let pressure: Int?
-    let humidity: Int?
-    let dewPoint: Double?
-    let uvi: Double?
-    let clouds: Int?
-    let visibility: Int?
-    let windSpeed: Int?
-    let windDeg: Int?
     let weather: [WeatherDescription]?
-    let precipitation: Double?
-    let pop: Double?
     
     var temperature: String {
         return String(format: "%.1f º", self.temp ?? 00)

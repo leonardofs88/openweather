@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct System: Decodable {
+struct System: Decodable, Equatable {
     let type: Int?
     let id: Int?
     let message: Double?

@@ -9,5 +9,8 @@ target 'OpenWeatherChallenge' do
   pod 'RxCocoa'
   pod 'Charts'
   pod 'SnapKit'
-
+  
+  target 'OpenWeatherChallengeTests' do
+    inherit! :search_paths
+  end
 end

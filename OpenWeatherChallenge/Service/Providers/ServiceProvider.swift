@@ -11,4 +11,8 @@ struct ServiceProvider {
     static var service: ServiceProtocol {
         return Service()
     }
+    
+    static var mockService: ServiceProtocol {
+        return MockService()
+    }
 }

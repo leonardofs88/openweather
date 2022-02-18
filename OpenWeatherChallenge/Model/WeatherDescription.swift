@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct WeatherDescription: Decodable {
+struct WeatherDescription: Decodable, Equatable {
     let id: Int?
     let main: String?
     let description: String?

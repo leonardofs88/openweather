@@ -61,7 +61,7 @@
 		1F614ED9EC6797E3B131DEB764626614 /* ScheduledItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22128DAD588130FCC017E6306801E012 /* ScheduledItemType.swift */; };
 		1F64C124283555FF5E1944FA37501247 /* Signal+Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE18EEA4C5D5A2C193C032BF2672EC /* Signal+Subscription.swift */; };
 		1F6F0B8C1A8EA633EFEBE64EB781A6B5 /* UINavigationController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E73559560897806EB3610F8408C233 /* UINavigationController+Rx.swift */; };
-		20875E8849C07190BC30F7637C1E7E60 /* Pods-OpenWeatherChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48447E1AB2231880612C06687231FFD4 /* Pods-OpenWeatherChallenge-dummy.m */; };
+		20875E8849C07190BC30F7637C1E7E60 /* Pods-OpenWeatherChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F15813A067F397DECD195A69C3C801 /* Pods-OpenWeatherChallenge-dummy.m */; };
 		2087DD8278E2FC32F75C947E058EA423 /* NSObject+Rx+KVORepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A378C8CE24863755BB86FDB251F77 /* NSObject+Rx+KVORepresentable.swift */; };
 		225542C8A74C7C98FBC1CB44BFFAE660 /* BubbleChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A193FE89F0F7B115CD29AD1D26099 /* BubbleChartRenderer.swift */; };
 		226EF642FBC8AFCEE5FFCCB042C111C9 /* LineScatterCandleRadarRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3075EA1EDB019D048A8BC107476ED /* LineScatterCandleRadarRenderer.swift */; };
@@ -326,6 +326,7 @@
 		AAF73122F052B587DCB14744881876F9 /* AnonymousDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0D3AEE461B4FD38EFA3174F3640B4E /* AnonymousDisposable.swift */; };
 		AB0CCAF6CDF9520E0378193CDC130806 /* XAxisRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CB393167BD1B2A4BFDC36C2047D406 /* XAxisRenderer.swift */; };
 		AB88D7A71BA82D3BAF097C992BFB221B /* UISearchController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E62E54F0AA48FD76B530E649DCBAB75 /* UISearchController+Rx.swift */; };
+		AC09A95AA50FF7AA2461888F38E7226A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AC5FFD54B0AB961EA609CDEB785403FD /* Infallible+Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F84ED91A9B9ED9E6F14EB74E37766F /* Infallible+Zip+arity.swift */; };
 		AC663FA9B4CAB48B9CDDC92BF7872667 /* BubbleChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3318634B9EA14E60B5EA1526D71809E0 /* BubbleChartDataEntry.swift */; };
 		ACA3DBC73A19F3CDF9C4FAB09988D0E6 /* RxScrollViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA8028F83F613409406B1086D187DD2 /* RxScrollViewDelegateProxy.swift */; };
@@ -410,7 +411,7 @@
 		D5660F669E12D67E5C593FEFCFA11972 /* BarLineScatterCandleBubbleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F13EA180D5628524457213FE160008 /* BarLineScatterCandleBubbleRenderer.swift */; };
 		D59C2826AD288ECFF576B2AFA312716C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19EC883E4B7FBBF93960A06D719C86 /* ConstraintRelation.swift */; };
 		D6FDE9DFAC4AA548A9A4E2D6BBCE54FC /* ControlProperty+Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0597A06E78600895B992632B3BFA30 /* ControlProperty+Driver.swift */; };
-		D7B03836ECD0982DA5E5661B9251DD99 /* Pods-OpenWeatherChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61088CC4742596A7EF886709E499E82B /* Pods-OpenWeatherChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7B03836ECD0982DA5E5661B9251DD99 /* Pods-OpenWeatherChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0BF1B7CF291AA3229F14D0F96604D57 /* Pods-OpenWeatherChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D80A9F0DF1621D88A25AEDF8E35C3B19 /* RadarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D443585F7BED9A1FC6A4341981542A07 /* RadarChartDataSet.swift */; };
 		D82E85AE756633AC103344F20777C5BD /* BehaviorRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D1E7A7AEF1EADCC270AB83D84633F /* BehaviorRelay.swift */; };
 		D96D13E1AFEF7D5F7762958CC4E95836 /* DefaultIfEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978BA7D7FC2470423E42E54300C85FE /* DefaultIfEmpty.swift */; };
@@ -434,10 +435,12 @@
 		E8EAADACF3BAE33BDECBC7214EAE9CD2 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE873DBA2FCE2B2D1C585A2BA8B08F26 /* ConstraintRelatableTarget.swift */; };
 		EA5FE4B4B3BF04976C37430E4F3721EF /* RxPickerViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793EF79E7C95A1D7D51A77803B71B016 /* RxPickerViewDelegateProxy.swift */; };
 		EDBD3888D6474698F30145179ABD4D73 /* Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717ED3FC4592207EFB3EA5BBFFF23AE6 /* Skip.swift */; };
+		EE421DDCBEB972A5D74A6AC881798A15 /* Pods-OpenWeatherChallengeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F00C1D2EFF95509D8CFCC4543B24E88 /* Pods-OpenWeatherChallengeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE6C364198A763EBBF49237035D86439 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C340C8E6F3EB3225C299C0345BA3B /* ConstraintLayoutGuide.swift */; };
 		EF6DD06709E5EFD67031FF9B5901A827 /* RxTableViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD9EB18600C163A463875CC059B436 /* RxTableViewDelegateProxy.swift */; };
 		EF9A0A6EBABF0BF1AC9D5140A89BEEE5 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273E04D801309010CFB6BF97E7D82C3 /* Queue.swift */; };
 		EFBB226346AEA178171CE952980E9D9F /* ShareReplayScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A17727F96FA2393D5E32EBB1B8F8F /* ShareReplayScope.swift */; };
+		F01C22AE098485018E972B9B67740689 /* Pods-OpenWeatherChallengeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068D5AE61ADB43083D975A4E3B863B0 /* Pods-OpenWeatherChallengeTests-dummy.m */; };
 		F07C86E8828A5B10135B2D291B57E5C9 /* Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101BFC015CA0C2A9A6D8228F3446C679 /* Catch.swift */; };
 		F0D587B57C965BAC30D3A3434C3671BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F10586462FB54CEA169A1A7A469A926D /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F93F49EF58935D671C44651CBA32704 /* Debugging.swift */; };
@@ -535,6 +538,13 @@
 			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
 			remoteInfo = RxSwift;
 		};
+		F85CB6088CA900595D3926D6ACDCFB66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA00B4FD1EA27F31268B6392D8A1330;
+			remoteInfo = "Pods-OpenWeatherChallenge";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -568,6 +578,7 @@
 		0FE899E02C0B62D8063C1CD82C479442 /* BarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartView.swift; path = Source/Charts/Charts/BarChartView.swift; sourceTree = "<group>"; };
 		0FFA4CEE0DA2AA39E8F16EB68EAE0AD5 /* RefCountDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefCountDisposable.swift; path = RxSwift/Disposables/RefCountDisposable.swift; sourceTree = "<group>"; };
 		101BFC015CA0C2A9A6D8228F3446C679 /* Catch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catch.swift; path = RxSwift/Observables/Catch.swift; sourceTree = "<group>"; };
+		1068D5AE61ADB43083D975A4E3B863B0 /* Pods-OpenWeatherChallengeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenWeatherChallengeTests-dummy.m"; sourceTree = "<group>"; };
 		117B3DE980B89496D98F1CDF36A2995B /* CompositeDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompositeDisposable.swift; path = RxSwift/Disposables/CompositeDisposable.swift; sourceTree = "<group>"; };
 		12706724A1276CF6118FD9C06C9F7DCE /* NSTextStorage+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextStorage+Rx.swift"; path = "RxCocoa/iOS/NSTextStorage+Rx.swift"; sourceTree = "<group>"; };
 		128A17C997081B66C87BA989BC6EF8AF /* RxWKNavigationDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxWKNavigationDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxWKNavigationDelegateProxy.swift; sourceTree = "<group>"; };
@@ -582,6 +593,7 @@
 		17C93FAED21A2CEDF2AD2617A75A6B00 /* Highlight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Highlight.swift; path = Source/Charts/Highlight/Highlight.swift; sourceTree = "<group>"; };
 		17E33E7335D61FB31969002EEB6D6DB0 /* ILineScatterCandleRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ILineScatterCandleRadarChartDataSet.swift; path = Source/Charts/Data/Interfaces/ILineScatterCandleRadarChartDataSet.swift; sourceTree = "<group>"; };
 		18775C21B6CFE03DEB342465FA63DF23 /* UIRefreshControl+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIRefreshControl+Rx.swift"; path = "RxCocoa/iOS/UIRefreshControl+Rx.swift"; sourceTree = "<group>"; };
+		18AE821988CF61DF74CF1DBFF3A64B0E /* Pods-OpenWeatherChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenWeatherChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
 		18D799DCF69BD887F6652C386DA98269 /* MarkerImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkerImage.swift; path = Source/Charts/Components/MarkerImage.swift; sourceTree = "<group>"; };
 		18DAA77C6C6F78673C91E6B336CE7AE2 /* ObserverBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverBase.swift; path = RxSwift/Observers/ObserverBase.swift; sourceTree = "<group>"; };
 		19620B9760878FFDA29ADDE4DF50CAD6 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
@@ -626,7 +638,6 @@
 		2B7D3209AD11DD626BE7D9D3D9B7B11A /* Never.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Never.swift; path = RxSwift/Observables/Never.swift; sourceTree = "<group>"; };
 		2C270743E880A90D737044BFF1F39084 /* RxMutableBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxMutableBox.swift; path = RxSwift/RxMutableBox.swift; sourceTree = "<group>"; };
 		2C92731005836371CD8AD3C557BEE6E4 /* ScatterChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/ScatterChartDataSet.swift; sourceTree = "<group>"; };
-		2DDB61F6BC3DB12DEA58ED43289A5867 /* Pods-OpenWeatherChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenWeatherChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2E9A62FE20D7A4ECC8EB5161D1E6FDF0 /* Take.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Take.swift; path = RxSwift/Observables/Take.swift; sourceTree = "<group>"; };
 		2FA52B7AEC770773DC8363208C0ABCB8 /* AsSingle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsSingle.swift; path = RxSwift/Observables/AsSingle.swift; sourceTree = "<group>"; };
 		30315CCDC75DB5AC6FE39707E8012024 /* NotificationCenter+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NotificationCenter+Rx.swift"; path = "RxCocoa/Foundation/NotificationCenter+Rx.swift"; sourceTree = "<group>"; };
@@ -637,14 +648,13 @@
 		328B26093054E00117D516F89A97D4CE /* BarChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartData.swift; path = Source/Charts/Data/Implementations/Standard/BarChartData.swift; sourceTree = "<group>"; };
 		32B02BCF076B47640FED7479648AABA2 /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
 		3318634B9EA14E60B5EA1526D71809E0 /* BubbleChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/BubbleChartDataEntry.swift; sourceTree = "<group>"; };
-		33AE24A074B045F840763343844BCFA6 /* Pods-OpenWeatherChallenge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenWeatherChallenge-Info.plist"; sourceTree = "<group>"; };
 		33B40877952C9ECA4031157B8DF1B9A1 /* PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimitiveSequence.swift; path = RxSwift/Traits/PrimitiveSequence/PrimitiveSequence.swift; sourceTree = "<group>"; };
 		343ACAA4442F18D34FFEFB849F7F28E0 /* ChevronDownShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChevronDownShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/ChevronDownShapeRenderer.swift; sourceTree = "<group>"; };
 		34958266A9E940B4CA640CD2CCB8FCB5 /* Timeout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeout.swift; path = RxSwift/Observables/Timeout.swift; sourceTree = "<group>"; };
+		3551C8A508BE62DB77BA4A8B17AD87BF /* Pods-OpenWeatherChallengeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenWeatherChallengeTests.modulemap"; sourceTree = "<group>"; };
 		357339B3C59B2599865DC1427FF0DD34 /* Producer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Producer.swift; path = RxSwift/Observables/Producer.swift; sourceTree = "<group>"; };
 		35E73559560897806EB3610F8408C233 /* UINavigationController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+Rx.swift"; path = "RxCocoa/iOS/UINavigationController+Rx.swift"; sourceTree = "<group>"; };
 		36341E9C5043092161089F00C1D7BF36 /* RxCocoa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxCocoa-Info.plist"; sourceTree = "<group>"; };
-		3695B3A48897FA0B86F147C458649F9D /* Pods-OpenWeatherChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenWeatherChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		376D1CBB91F9202C3AF27BB1512DEF96 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = RxSwift/Observables/Map.swift; sourceTree = "<group>"; };
 		37E529915E856F0C80DE5FD944B338C5 /* CandleStickChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleStickChartRenderer.swift; path = Source/Charts/Renderers/CandleStickChartRenderer.swift; sourceTree = "<group>"; };
 		3834F861590F83AC615650AD1761D192 /* ObservableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableType.swift; path = RxSwift/ObservableType.swift; sourceTree = "<group>"; };
@@ -681,7 +691,6 @@
 		47440A4E34E5A1C091C35901DE625419 /* DelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxy.swift; path = RxCocoa/Common/DelegateProxy.swift; sourceTree = "<group>"; };
 		47B7B84487B4CC2B201BEC49E595C467 /* RxCollectionViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewReactiveArrayDataSource.swift; path = RxCocoa/iOS/DataSources/RxCollectionViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
 		481F0A4A14ADE1BDA44B0544109CD6DF /* IPieChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IPieChartDataSet.swift; path = Source/Charts/Data/Interfaces/IPieChartDataSet.swift; sourceTree = "<group>"; };
-		48447E1AB2231880612C06687231FFD4 /* Pods-OpenWeatherChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenWeatherChallenge-dummy.m"; sourceTree = "<group>"; };
 		48E27EBF6B60B04E23AC65E59769F6C4 /* RxTabBarDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTabBarDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTabBarDelegateProxy.swift; sourceTree = "<group>"; };
 		4A24A34B65F34D63D350A80CCE8929E3 /* BubbleChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartData.swift; path = Source/Charts/Data/Implementations/Standard/BubbleChartData.swift; sourceTree = "<group>"; };
 		4AAFEF33E1C70205285999631E2B07F0 /* BarHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarHighlighter.swift; path = Source/Charts/Highlight/BarHighlighter.swift; sourceTree = "<group>"; };
@@ -694,11 +703,13 @@
 		4F334F48B3555453A57BEECC90BE1584 /* RxPickerViewAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewAdapter.swift; path = RxCocoa/iOS/DataSources/RxPickerViewAdapter.swift; sourceTree = "<group>"; };
 		50295598533750088839EED5E70C0516 /* WithLatestFrom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WithLatestFrom.swift; path = RxSwift/Observables/WithLatestFrom.swift; sourceTree = "<group>"; };
 		50D688F266E77662424D38368C5A2E92 /* UIGestureRecognizer+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIGestureRecognizer+Rx.swift"; path = "RxCocoa/iOS/UIGestureRecognizer+Rx.swift"; sourceTree = "<group>"; };
+		51807BF0EFA25BAC7F4D5432CEF5D27E /* Pods-OpenWeatherChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenWeatherChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		526867F82B329B9A0AD0A472291A9BCB /* LineRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineRadarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineRadarChartDataSet.swift; sourceTree = "<group>"; };
 		52BBFDF224FEE090E81CE37EBDEB93CD /* Disposables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposables.swift; path = RxSwift/Disposables/Disposables.swift; sourceTree = "<group>"; };
 		53AFB7AE2804460D30F414E9F5802466 /* ControlProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlProperty.swift; path = RxCocoa/Traits/ControlProperty.swift; sourceTree = "<group>"; };
 		54DE8B2BEEAF9CDB51B6D49D3C1B2279 /* Maybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Maybe.swift; path = RxSwift/Traits/PrimitiveSequence/Maybe.swift; sourceTree = "<group>"; };
 		54E642D71A2A58002B6580D5ED89ED1D /* RxCollectionViewDataSourceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewDataSourceType.swift; path = RxCocoa/iOS/Protocols/RxCollectionViewDataSourceType.swift; sourceTree = "<group>"; };
+		54F15813A067F397DECD195A69C3C801 /* Pods-OpenWeatherChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenWeatherChallenge-dummy.m"; sourceTree = "<group>"; };
 		553B1456D1A154B97FAA88E6E0852644 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = RxSwift/Observables/Filter.swift; sourceTree = "<group>"; };
 		55692BC89B2349D8E49C8EBD36D16D92 /* LegendRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegendRenderer.swift; path = Source/Charts/Renderers/LegendRenderer.swift; sourceTree = "<group>"; };
 		55BC9D93CD651982D03774C76F14F723 /* SynchronizedUnsubscribeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedUnsubscribeType.swift; path = RxSwift/Concurrency/SynchronizedUnsubscribeType.swift; sourceTree = "<group>"; };
@@ -724,14 +735,12 @@
 		5D8CF39CCDACA74C6045865879F1AF0C /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
 		5DA4BB6AF93EFF96DE949C945EE0DB7D /* Observable+Bind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Observable+Bind.swift"; path = "RxRelay/Observable+Bind.swift"; sourceTree = "<group>"; };
 		5DD8670C9CF4BBB76A6B85B482738DF8 /* BarLineScatterCandleBubbleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineScatterCandleBubbleChartDataProvider.swift; path = Source/Charts/Interfaces/BarLineScatterCandleBubbleChartDataProvider.swift; sourceTree = "<group>"; };
-		5E13ED1FCE4AF4D514CFDA05F28FCA3D /* Pods-OpenWeatherChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenWeatherChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		5EDC04B8D06FB31AC517BDA76C7FE9AD /* Repeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Repeat.swift; path = RxSwift/Observables/Repeat.swift; sourceTree = "<group>"; };
 		5F93F49EF58935D671C44651CBA32704 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
 		5FB4D1D864D85C2EF3EDC03299ADA53E /* HistoricalSchedulerTimeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalSchedulerTimeConverter.swift; path = RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift; sourceTree = "<group>"; };
 		5FCBD04847AA367CDF77D9C0C9D4DC48 /* SubscriptionDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionDisposable.swift; path = RxSwift/Disposables/SubscriptionDisposable.swift; sourceTree = "<group>"; };
 		605F1CEE60D8ACF73CC878B2027FE25B /* ReplaySubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaySubject.swift; path = RxSwift/Subjects/ReplaySubject.swift; sourceTree = "<group>"; };
 		60C7EEBA6B0F9AA09542D3E64B61AD42 /* ControlEvent+Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ControlEvent+Signal.swift"; path = "RxCocoa/Traits/Signal/ControlEvent+Signal.swift"; sourceTree = "<group>"; };
-		61088CC4742596A7EF886709E499E82B /* Pods-OpenWeatherChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenWeatherChallenge-umbrella.h"; sourceTree = "<group>"; };
 		61B05A12BC992BC0BA59A0D4BF3AD388 /* BarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/BarChartDataSet.swift; sourceTree = "<group>"; };
 		61EF74F739D0E41104C0F92FA05B7F5C /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
 		62220DB576EA232BA2CA143D42D4DCDA /* ConcurrentMainScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentMainScheduler.swift; path = RxSwift/Schedulers/ConcurrentMainScheduler.swift; sourceTree = "<group>"; };
@@ -756,12 +765,12 @@
 		6B882FED9C1B6AB81023182217A18EE4 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = RxRelay/Utils.swift; sourceTree = "<group>"; };
 		6BC7AFD42BA5229C468EABB116D53FF5 /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signal.swift; path = RxCocoa/Traits/Signal/Signal.swift; sourceTree = "<group>"; };
 		6C539707362805559577A128BB87E1A1 /* RxPickerViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxPickerViewDataSourceProxy.swift; sourceTree = "<group>"; };
+		6D5F4D7B9FAF60864C18D26245F7E578 /* Pods-OpenWeatherChallengeTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OpenWeatherChallengeTests"; path = Pods_OpenWeatherChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4D19A8C930511834CC812FF818999E /* Platform+Graphics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Platform+Graphics.swift"; path = "Source/Charts/Utils/Platform+Graphics.swift"; sourceTree = "<group>"; };
 		6E85D197445CDF55C27F5EBA69F9358B /* AnyObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyObserver.swift; path = RxSwift/AnyObserver.swift; sourceTree = "<group>"; };
 		6FAE5970B7508EF8B9C65DCD50E88B50 /* Completable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Completable.swift; path = RxSwift/Traits/PrimitiveSequence/Completable.swift; sourceTree = "<group>"; };
 		7100AD8032FFC39837B724C841B7DF2C /* Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = RxSwift/Concurrency/Lock.swift; sourceTree = "<group>"; };
 		717ED3FC4592207EFB3EA5BBFFF23AE6 /* Skip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Skip.swift; path = RxSwift/Observables/Skip.swift; sourceTree = "<group>"; };
-		71B1A322105C69AEED45ADA4B8EF1CE8 /* Pods-OpenWeatherChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenWeatherChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
 		7204F1BBA1E7C499B18B627BAD51B93C /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
 		723E85090F10A55F761168F1DECE80F1 /* IChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IChartDataSet.swift; path = Source/Charts/Data/Interfaces/IChartDataSet.swift; sourceTree = "<group>"; };
 		729B2F0008A26B7CFEA4DFA23584C468 /* RadarChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/RadarChartDataEntry.swift; sourceTree = "<group>"; };
@@ -797,7 +806,8 @@
 		7EDEF774619670D2120FD3B2B0B2B06E /* SynchronizedOnType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedOnType.swift; path = RxSwift/Concurrency/SynchronizedOnType.swift; sourceTree = "<group>"; };
 		7F120EDEB0373C7A1E597558B0BEAD28 /* RxTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTarget.swift; path = RxCocoa/Common/RxTarget.swift; sourceTree = "<group>"; };
 		7FACF7F4B75314BD046DD1B147AC55A2 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
-		809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC9B4B4512DCFC20ABFE5519A0E98BE /* Pods-OpenWeatherChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenWeatherChallenge-frameworks.sh"; sourceTree = "<group>"; };
+		809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D59C34BE72DCFE3EFF8D9F97DFD690 /* AsMaybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsMaybe.swift; path = RxSwift/Observables/AsMaybe.swift; sourceTree = "<group>"; };
 		8196505AE7A612C37240850763B0D6D6 /* IBarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBarChartDataSet.swift; path = Source/Charts/Data/Interfaces/IBarChartDataSet.swift; sourceTree = "<group>"; };
 		81B3229E6E86ADEECE311275312A65B3 /* Single.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Single.swift; path = RxSwift/Traits/PrimitiveSequence/Single.swift; sourceTree = "<group>"; };
@@ -814,11 +824,13 @@
 		84C2AF733B9BA2D1BF6E5C0BC50A011D /* IValueFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IValueFormatter.swift; path = Source/Charts/Formatters/IValueFormatter.swift; sourceTree = "<group>"; };
 		85344885E2E8957EA62471AD163412B5 /* RxTableViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxTableViewDataSourceProxy.swift; sourceTree = "<group>"; };
 		85BE70A8E40C1C737DADE64B56D80411 /* PieRadarHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieRadarHighlighter.swift; path = Source/Charts/Highlight/PieRadarHighlighter.swift; sourceTree = "<group>"; };
+		86B9E787FD63D2A2629DF9F4F3C7DB95 /* Pods-OpenWeatherChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenWeatherChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 		89A92A9D6287F9CB1999EE76E1B19471 /* ChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/ChartDataSet.swift; sourceTree = "<group>"; };
 		89C465AEB8CB3CCF4355F28AA55056D3 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		89EE1B23D37D319BC5D179D579935026 /* LineChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineChartDataSet.swift; sourceTree = "<group>"; };
 		8A2559B81FB41485D3ED7FFA4E06EC98 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		8A3DE4EC8C03EF1EF861A0348A3C4713 /* SchedulerType+SharedSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SchedulerType+SharedSequence.swift"; path = "RxCocoa/Traits/SharedSequence/SchedulerType+SharedSequence.swift"; sourceTree = "<group>"; };
+		8B24B4CAB37E35D9177F7273F0B17B18 /* Pods-OpenWeatherChallengeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenWeatherChallengeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8B3DCA6A54D2FF0876F413C02DFE15D6 /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = RxSwift/Observables/Sequence.swift; sourceTree = "<group>"; };
 		8BCFA3C590DB60113BD3AED1158C52D1 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		8BD761268F7BE2C92FAE549C7D49D5C7 /* StartWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StartWith.swift; path = RxSwift/Observables/StartWith.swift; sourceTree = "<group>"; };
@@ -828,11 +840,13 @@
 		8DBED8D8AC39FAAD798EBD36F56A3E53 /* ControlEvent+Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ControlEvent+Driver.swift"; path = "RxCocoa/Traits/Driver/ControlEvent+Driver.swift"; sourceTree = "<group>"; };
 		8DC3635C9AD349C4B488F09FA07CD744 /* DelaySubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaySubscription.swift; path = RxSwift/Observables/DelaySubscription.swift; sourceTree = "<group>"; };
 		8E757C0BDFDFA2606BF069F22D3BA93A /* IRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IRadarChartDataSet.swift; path = Source/Charts/Data/Interfaces/IRadarChartDataSet.swift; sourceTree = "<group>"; };
+		8F00C1D2EFF95509D8CFCC4543B24E88 /* Pods-OpenWeatherChallengeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenWeatherChallengeTests-umbrella.h"; sourceTree = "<group>"; };
 		91711D3BFABFAB8535F141FBBE95BB09 /* ChartHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartHighlighter.swift; path = Source/Charts/Highlight/ChartHighlighter.swift; sourceTree = "<group>"; };
 		919B074CC97FEE22C72F4E46CEF1127C /* RadarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartRenderer.swift; path = Source/Charts/Renderers/RadarChartRenderer.swift; sourceTree = "<group>"; };
 		92572861C4775CE0AA95FCE53EB1DD4E /* PriorityQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = Platform/DataStructures/PriorityQueue.swift; sourceTree = "<group>"; };
 		92DEDAB17D1FB05CA4629C7B485FD656 /* SchedulerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchedulerType.swift; path = RxSwift/SchedulerType.swift; sourceTree = "<group>"; };
 		92F679C3B9E7E85F7E6A2D51E05175B2 /* PieChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/PieChartDataSet.swift; sourceTree = "<group>"; };
+		930D2F7DE4F8EA6B7A6F8F0F50AD3EAC /* Pods-OpenWeatherChallengeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenWeatherChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		9395454D142DC8A705ADDAEC44B6C108 /* CandleChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/CandleChartDataEntry.swift; sourceTree = "<group>"; };
 		946BDA38595F67D5EE6D45218B1A986A /* ILineChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ILineChartDataSet.swift; path = Source/Charts/Data/Interfaces/ILineChartDataSet.swift; sourceTree = "<group>"; };
 		95849E5A0B7AA1B88B5A8C0DD8EFBE4C /* DelegateProxyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxyType.swift; path = RxCocoa/Common/DelegateProxyType.swift; sourceTree = "<group>"; };
@@ -842,8 +856,9 @@
 		95FE7CA56D671236DF05FF7BEACE2DE9 /* UICollectionView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Rx.swift"; path = "RxCocoa/iOS/UICollectionView+Rx.swift"; sourceTree = "<group>"; };
 		96675798D3CFB27055C6CA81D6DEFC7A /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		96B1C16CDE96AEC10A81A7A4DAFAC9AA /* SkipUntil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipUntil.swift; path = RxSwift/Observables/SkipUntil.swift; sourceTree = "<group>"; };
+		96B6225DA85E012497C2D860583E677F /* Pods-OpenWeatherChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenWeatherChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		96C3911483841D860F1D14E820C07D97 /* VirtualTimeConverterType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTimeConverterType.swift; path = RxSwift/Schedulers/VirtualTimeConverterType.swift; sourceTree = "<group>"; };
-		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C7F3FF8C374CEFC3320602AF4E7DAF /* BinaryDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDisposable.swift; path = RxSwift/Disposables/BinaryDisposable.swift; sourceTree = "<group>"; };
 		97DA3515811A20DAD91B02F945C3C6F5 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		9808F43A968D0850D3418D02207589E1 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
@@ -858,18 +873,18 @@
 		9D009DD0AA0AB34E98F57AE97CA582CF /* Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Create.swift; path = RxSwift/Observables/Create.swift; sourceTree = "<group>"; };
 		9D4D1E7A7AEF1EADCC270AB83D84633F /* BehaviorRelay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BehaviorRelay.swift; path = RxRelay/BehaviorRelay.swift; sourceTree = "<group>"; };
 		9D4E9FCF804D98FD25D50F77FDE635B3 /* Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = RxCocoa/Traits/Driver/Driver.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DAF8350CBD4116C6368A88F6C8169A8 /* Debounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debounce.swift; path = RxSwift/Observables/Debounce.swift; sourceTree = "<group>"; };
 		9DDF0B4F86C1DFF2516E278A65E157C5 /* RxSearchBarDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxSearchBarDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxSearchBarDelegateProxy.swift; sourceTree = "<group>"; };
 		9E125EAA787D27483E2CADF9DC4E5191 /* DisposeBag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBag.swift; path = RxSwift/Disposables/DisposeBag.swift; sourceTree = "<group>"; };
 		9E2DE05B1049654E1EF9823F9823601C /* WithUnretained.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WithUnretained.swift; path = RxSwift/Observables/WithUnretained.swift; sourceTree = "<group>"; };
-		9F37847670314068462A894E1E9C6279 /* Pods-OpenWeatherChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenWeatherChallenge-frameworks.sh"; sourceTree = "<group>"; };
 		9FC51573AC657EDFEE070B1FA3F0A7A8 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		A02CF56F7A1B4AB190FD61930C658108 /* CombineLatest+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CombineLatest+arity.swift"; path = "RxSwift/Observables/CombineLatest+arity.swift"; sourceTree = "<group>"; };
 		A0B2D281FA71AF6A16AD7415D8D79E84 /* ChartBaseDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartBaseDataSet.swift; path = Source/Charts/Data/Implementations/ChartBaseDataSet.swift; sourceTree = "<group>"; };
+		A0BF1B7CF291AA3229F14D0F96604D57 /* Pods-OpenWeatherChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenWeatherChallenge-umbrella.h"; sourceTree = "<group>"; };
 		A0FE00EEED829E070C737D69C6DE917A /* HorizontalBarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarChartRenderer.swift; path = Source/Charts/Renderers/HorizontalBarChartRenderer.swift; sourceTree = "<group>"; };
 		A16DFFDF013007234537ECEC3E0BD0D1 /* IShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/IShapeRenderer.swift; sourceTree = "<group>"; };
-		A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C1B977ED8804E8AEEC884E7359EE58 /* Charts */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Charts; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2492968DE7219D25A1618547413E2B7 /* NSObject+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Rx.swift"; path = "RxCocoa/Foundation/NSObject+Rx.swift"; sourceTree = "<group>"; };
 		A28300380F3410BBB4A6EACC46B4F479 /* Observable+Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Observable+Concurrency.swift"; path = "RxSwift/Observable+Concurrency.swift"; sourceTree = "<group>"; };
 		A292EFBDE92CDF83A60271E498A3853E /* LineRadarRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineRadarRenderer.swift; path = Source/Charts/Renderers/LineRadarRenderer.swift; sourceTree = "<group>"; };
@@ -897,6 +912,7 @@
 		AF0C3D1662D9347D920E26C994930949 /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
 		AF0C957F09127D9A328B9D344CE6A424 /* _RXDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _RXDelegateProxy.h; path = RxCocoa/Runtime/include/_RXDelegateProxy.h; sourceTree = "<group>"; };
 		AF6536E1B4C0BA75300636D56A1D8190 /* VirtualTimeScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTimeScheduler.swift; path = RxSwift/Schedulers/VirtualTimeScheduler.swift; sourceTree = "<group>"; };
+		B04D710B48040025D2759E9949119033 /* Pods-OpenWeatherChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenWeatherChallenge.modulemap"; sourceTree = "<group>"; };
 		B0579145E20BFD7FF49C664A24761843 /* Platform+Touch Handling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Platform+Touch Handling.swift"; path = "Source/Charts/Utils/Platform+Touch Handling.swift"; sourceTree = "<group>"; };
 		B0CBC1F1414AD89E49A258B737021C99 /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
 		B1C95DDF6B35185221AE8B1E6BF20772 /* Renderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Renderer.swift; path = Source/Charts/Renderers/Renderer.swift; sourceTree = "<group>"; };
@@ -904,6 +920,7 @@
 		B4CA9900DF05B962CD8A71AC4E953A5F /* ChartAnimationEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartAnimationEasing.swift; path = Source/Charts/Animation/ChartAnimationEasing.swift; sourceTree = "<group>"; };
 		B590B991C44FBCF7A3C357CFE7DB4C97 /* UIButton+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Rx.swift"; path = "RxCocoa/iOS/UIButton+Rx.swift"; sourceTree = "<group>"; };
 		B5AEBE4F03EA30C0B60BC922158A3C67 /* Charts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Charts.modulemap; sourceTree = "<group>"; };
+		B5C62AAAE44B69D14A18F292BD51B618 /* Pods-OpenWeatherChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenWeatherChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		B5F2333C34863F2853B9625C25A3BBCD /* Amb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Amb.swift; path = RxSwift/Observables/Amb.swift; sourceTree = "<group>"; };
 		B817451877407B49DE7F02B93A1DA94A /* ILineRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ILineRadarChartDataSet.swift; path = Source/Charts/Data/Interfaces/ILineRadarChartDataSet.swift; sourceTree = "<group>"; };
 		B838D962CA3BD06A62DAD5DCBC092CA9 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
@@ -914,7 +931,7 @@
 		BB33D9C40B3900D0EC8D22BDDDAB255F /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = RxSwift/Event.swift; sourceTree = "<group>"; };
 		BB6C36DB84851EA6FE9D28012EE2253C /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = RxSwift/Errors.swift; sourceTree = "<group>"; };
 		BBA8028F83F613409406B1086D187DD2 /* RxScrollViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxScrollViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxScrollViewDelegateProxy.swift; sourceTree = "<group>"; };
-		BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxCocoa; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD19EC883E4B7FBBF93960A06D719C86 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
 		BDE6B2B499245AB058A4994ABC201E18 /* DispatchQueueConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchQueueConfiguration.swift; path = RxSwift/Schedulers/Internal/DispatchQueueConfiguration.swift; sourceTree = "<group>"; };
 		BE7A0F4DDDC16D4254274B3CCC659CE9 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
@@ -925,6 +942,7 @@
 		BF187E67784592B6D5C2BB19EE99957A /* Infallible+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Infallible+Operators.swift"; path = "RxSwift/Traits/Infallible/Infallible+Operators.swift"; sourceTree = "<group>"; };
 		BF91B6743C92B24F0631B96CE982183F /* AddRef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddRef.swift; path = RxSwift/Observables/AddRef.swift; sourceTree = "<group>"; };
 		BFEE55A3F226F008D62D34B2AEED32E0 /* SquareShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SquareShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/SquareShapeRenderer.swift; sourceTree = "<group>"; };
+		C03691A89E0D88C2BD82A02757A34D7C /* Pods-OpenWeatherChallengeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenWeatherChallengeTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C03F0A46694D08333186D0BAEAB841D3 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = RxSwift/Observable.swift; sourceTree = "<group>"; };
 		C0609CB7792207A7FCDC37B951E775A3 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		C0CB393167BD1B2A4BFDC36C2047D406 /* XAxisRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XAxisRenderer.swift; path = Source/Charts/Renderers/XAxisRenderer.swift; sourceTree = "<group>"; };
@@ -954,9 +972,9 @@
 		D04673BB8DE011E48ECAC3DEFA5D5C73 /* Charts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Charts.release.xcconfig; sourceTree = "<group>"; };
 		D06EECD6D419447385D30D626CE81554 /* Platform+Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Platform+Color.swift"; path = "Source/Charts/Utils/Platform+Color.swift"; sourceTree = "<group>"; };
 		D106C39B5F5853F9FB0FEC77B4BD1AF7 /* RxRelay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxRelay-dummy.m"; sourceTree = "<group>"; };
+		D18FDB5E1C7FC623A77C3DB1CE1F65F8 /* Pods-OpenWeatherChallenge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenWeatherChallenge-Info.plist"; sourceTree = "<group>"; };
 		D1AF9EC58DD1F62CD674A9B0D4C80FB0 /* Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rx.swift; path = RxSwift/Rx.swift; sourceTree = "<group>"; };
 		D1DA78B7071491A565EFC1BEFB0EC98E /* IFillFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IFillFormatter.swift; path = Source/Charts/Formatters/IFillFormatter.swift; sourceTree = "<group>"; };
-		D312AB2EC8191366DA8A472ED8B06192 /* Pods-OpenWeatherChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenWeatherChallenge.modulemap"; sourceTree = "<group>"; };
 		D36DA854ECBD9E2995594169A06F9FC2 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		D3E017F0DDB8C0F2EE465DC79F08591B /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
 		D443585F7BED9A1FC6A4341981542A07 /* RadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/RadarChartDataSet.swift; sourceTree = "<group>"; };
@@ -1017,7 +1035,8 @@
 		F0B9701D3FF5E8E0A9AEC402482FE91A /* RxTextViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTextViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTextViewDelegateProxy.swift; sourceTree = "<group>"; };
 		F134C03CFA21BB9F537E9D73D1EA6E0B /* RxCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxCocoa.modulemap; sourceTree = "<group>"; };
 		F210EDEE401CF70D45B6A9776A8DC03A /* RxRelay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxRelay.debug.xcconfig; sourceTree = "<group>"; };
-		F2507D0DB78A0630864E4ADAE604311D /* Pods_OpenWeatherChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenWeatherChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2507D0DB78A0630864E4ADAE604311D /* Pods-OpenWeatherChallenge */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OpenWeatherChallenge"; path = Pods_OpenWeatherChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25D2F359B4330FCA319FA8AAD44C8BB /* Pods-OpenWeatherChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenWeatherChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3DA4A0E1C0CE8E990AEE66ACC383E0C /* NSView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSView+Rx.swift"; path = "RxCocoa/macOS/NSView+Rx.swift"; sourceTree = "<group>"; };
 		F44BC7D9797FA14C135476D5AA55C790 /* ZoomViewJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomViewJob.swift; path = Source/Charts/Jobs/ZoomViewJob.swift; sourceTree = "<group>"; };
 		F4D1BE3826DBAEDCFC6558E0FC03A27F /* RxCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxCocoa-dummy.m"; sourceTree = "<group>"; };
@@ -1040,7 +1059,7 @@
 		FD9CE9CCD49A8559E1C8F61CFEEEC9AE /* HorizontalBarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarChartView.swift; path = Source/Charts/Charts/HorizontalBarChartView.swift; sourceTree = "<group>"; };
 		FE519B8E2D096723757A5E911B91D8F3 /* Range.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Range.swift; path = RxSwift/Observables/Range.swift; sourceTree = "<group>"; };
 		FE762402AE2D20FF3BFBBA77F81F5525 /* RxSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxSwift-Info.plist"; sourceTree = "<group>"; };
-		FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxRelay; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1057,6 +1076,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A9D382B3BD051FFE891AE788AD04B77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D985ADC772D580790F816389E2CE0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC09A95AA50FF7AA2461888F38E7226A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1095,6 +1122,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AB5776B21CB8F46C4408A74B87E468C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C1B977ED8804E8AEEC884E7359EE58 /* Charts */,
+				F2507D0DB78A0630864E4ADAE604311D /* Pods-OpenWeatherChallenge */,
+				6D5F4D7B9FAF60864C18D26245F7E578 /* Pods-OpenWeatherChallengeTests */,
+				BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa */,
+				FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay */,
+				809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		113463F26C2AB67A7BFE238711FD8B0E /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -1260,6 +1301,7 @@
 				FB7799E76E11C036078B435823992298 /* Zip+Collection.swift */,
 				3368032EF765503F838AA77ABAB03BB1 /* Support Files */,
 			);
+			name = RxSwift;
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
@@ -1306,6 +1348,39 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		426E24A007A7CFD2D5CD6560612CEE76 /* Pods-OpenWeatherChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				B04D710B48040025D2759E9949119033 /* Pods-OpenWeatherChallenge.modulemap */,
+				F25D2F359B4330FCA319FA8AAD44C8BB /* Pods-OpenWeatherChallenge-acknowledgements.markdown */,
+				18AE821988CF61DF74CF1DBFF3A64B0E /* Pods-OpenWeatherChallenge-acknowledgements.plist */,
+				54F15813A067F397DECD195A69C3C801 /* Pods-OpenWeatherChallenge-dummy.m */,
+				7FC9B4B4512DCFC20ABFE5519A0E98BE /* Pods-OpenWeatherChallenge-frameworks.sh */,
+				D18FDB5E1C7FC623A77C3DB1CE1F65F8 /* Pods-OpenWeatherChallenge-Info.plist */,
+				A0BF1B7CF291AA3229F14D0F96604D57 /* Pods-OpenWeatherChallenge-umbrella.h */,
+				96B6225DA85E012497C2D860583E677F /* Pods-OpenWeatherChallenge.debug.xcconfig */,
+				B5C62AAAE44B69D14A18F292BD51B618 /* Pods-OpenWeatherChallenge.release.xcconfig */,
+			);
+			name = "Pods-OpenWeatherChallenge";
+			path = "Target Support Files/Pods-OpenWeatherChallenge";
+			sourceTree = "<group>";
+		};
+		48460203BE321B8E62B7EE435FC1A666 /* Pods-OpenWeatherChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3551C8A508BE62DB77BA4A8B17AD87BF /* Pods-OpenWeatherChallengeTests.modulemap */,
+				8B24B4CAB37E35D9177F7273F0B17B18 /* Pods-OpenWeatherChallengeTests-acknowledgements.markdown */,
+				C03691A89E0D88C2BD82A02757A34D7C /* Pods-OpenWeatherChallengeTests-acknowledgements.plist */,
+				1068D5AE61ADB43083D975A4E3B863B0 /* Pods-OpenWeatherChallengeTests-dummy.m */,
+				930D2F7DE4F8EA6B7A6F8F0F50AD3EAC /* Pods-OpenWeatherChallengeTests-Info.plist */,
+				8F00C1D2EFF95509D8CFCC4543B24E88 /* Pods-OpenWeatherChallengeTests-umbrella.h */,
+				51807BF0EFA25BAC7F4D5432CEF5D27E /* Pods-OpenWeatherChallengeTests.debug.xcconfig */,
+				86B9E787FD63D2A2629DF9F4F3C7DB95 /* Pods-OpenWeatherChallengeTests.release.xcconfig */,
+			);
+			name = "Pods-OpenWeatherChallengeTests";
+			path = "Target Support Files/Pods-OpenWeatherChallengeTests";
 			sourceTree = "<group>";
 		};
 		49D9419FA69095AC7ACB84582F469338 /* RxCocoa */ = {
@@ -1423,6 +1498,7 @@
 				E4E88BFF2F8ABE0927D5531A2982F991 /* WKWebView+Rx.swift */,
 				5DD29DCD327D6924F468C1256554298A /* Support Files */,
 			);
+			name = RxCocoa;
 			path = RxCocoa;
 			sourceTree = "<group>";
 		};
@@ -1475,6 +1551,7 @@
 				FD2093DC604F65DEC3338893C7D99C8F /* UILayoutSupport+Extensions.swift */,
 				365382F1AB53F9B85E626D9FCC1C99D0 /* Support Files */,
 			);
+			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -1503,6 +1580,7 @@
 				6B882FED9C1B6AB81023182217A18EE4 /* Utils.swift */,
 				8325C670DAC76D89ACD3AB7769163144 /* Support Files */,
 			);
+			name = RxRelay;
 			path = RxRelay;
 			sourceTree = "<group>";
 		};
@@ -1521,34 +1599,23 @@
 			path = "../Target Support Files/RxRelay";
 			sourceTree = "<group>";
 		};
+		84A1AEA1476B721618AD0804670E2007 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				426E24A007A7CFD2D5CD6560612CEE76 /* Pods-OpenWeatherChallenge */,
+				48460203BE321B8E62B7EE435FC1A666 /* Pods-OpenWeatherChallengeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		A22BEB42F32B4B612241318177D0C313 /* Charts */ = {
 			isa = PBXGroup;
 			children = (
 				D8A4426A546BE084260EA180F55A74E8 /* Core */,
 				23B54B9D94BF7D452E1ADF25574303ED /* Support Files */,
 			);
+			name = Charts;
 			path = Charts;
-			sourceTree = "<group>";
-		};
-		B165AE401AA2167421962B2C6B621516 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */,
-				F2507D0DB78A0630864E4ADAE604311D /* Pods_OpenWeatherChallenge.framework */,
-				BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */,
-				FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */,
-				809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */,
-				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BC4FB65B1D467C9F456E1185D823BF87 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FD0F1DF6BCCD84FA078435B21BFFF403 /* Pods-OpenWeatherChallenge */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -1557,8 +1624,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				E33C1926A7F00BDDA761FF2C267B9BF7 /* Pods */,
-				B165AE401AA2167421962B2C6B621516 /* Products */,
-				BC4FB65B1D467C9F456E1185D823BF87 /* Targets Support Files */,
+				0AB5776B21CB8F46C4408A74B87E468C /* Products */,
+				84A1AEA1476B721618AD0804670E2007 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1729,23 +1796,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FD0F1DF6BCCD84FA078435B21BFFF403 /* Pods-OpenWeatherChallenge */ = {
-			isa = PBXGroup;
-			children = (
-				D312AB2EC8191366DA8A472ED8B06192 /* Pods-OpenWeatherChallenge.modulemap */,
-				2DDB61F6BC3DB12DEA58ED43289A5867 /* Pods-OpenWeatherChallenge-acknowledgements.markdown */,
-				71B1A322105C69AEED45ADA4B8EF1CE8 /* Pods-OpenWeatherChallenge-acknowledgements.plist */,
-				48447E1AB2231880612C06687231FFD4 /* Pods-OpenWeatherChallenge-dummy.m */,
-				9F37847670314068462A894E1E9C6279 /* Pods-OpenWeatherChallenge-frameworks.sh */,
-				33AE24A074B045F840763343844BCFA6 /* Pods-OpenWeatherChallenge-Info.plist */,
-				61088CC4742596A7EF886709E499E82B /* Pods-OpenWeatherChallenge-umbrella.h */,
-				3695B3A48897FA0B86F147C458649F9D /* Pods-OpenWeatherChallenge.debug.xcconfig */,
-				5E13ED1FCE4AF4D514CFDA05F28FCA3D /* Pods-OpenWeatherChallenge.release.xcconfig */,
-			);
-			name = "Pods-OpenWeatherChallenge";
-			path = "Target Support Files/Pods-OpenWeatherChallenge";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1768,6 +1818,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4467357581E8345DD348683CC4111AF /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4794DE3310802EF1368C94DF99D6302D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE421DDCBEB972A5D74A6AC881798A15 /* Pods-OpenWeatherChallengeTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1821,7 +1879,7 @@
 			);
 			name = SnapKit;
 			productName = SnapKit;
-			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */ = {
@@ -1840,7 +1898,26 @@
 			);
 			name = RxRelay;
 			productName = RxRelay;
-			productReference = FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */;
+			productReference = FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay */;
+			productType = "com.apple.product-type.framework";
+		};
+		609973BA41EB2EA0733ECA990EE35BB5 /* Pods-OpenWeatherChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351A840740D3A9DFD440EFBF82102BBA /* Build configuration list for PBXNativeTarget "Pods-OpenWeatherChallengeTests" */;
+			buildPhases = (
+				4794DE3310802EF1368C94DF99D6302D /* Headers */,
+				97A74C1912682C75E78129C89F01E62D /* Sources */,
+				93D985ADC772D580790F816389E2CE0B /* Frameworks */,
+				ED371F101F73E8A21CB15AC8021B45F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC99D65A18FA3335AC77346757EF3217 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenWeatherChallengeTests";
+			productName = Pods_OpenWeatherChallengeTests;
+			productReference = 6D5F4D7B9FAF60864C18D26245F7E578 /* Pods-OpenWeatherChallengeTests */;
 			productType = "com.apple.product-type.framework";
 		};
 		7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */ = {
@@ -1860,7 +1937,7 @@
 			);
 			name = RxCocoa;
 			productName = RxCocoa;
-			productReference = BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */;
+			productReference = BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa */;
 			productType = "com.apple.product-type.framework";
 		};
 		BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */ = {
@@ -1878,7 +1955,7 @@
 			);
 			name = Charts;
 			productName = Charts;
-			productReference = A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */;
+			productReference = A1C1B977ED8804E8AEEC884E7359EE58 /* Charts */;
 			productType = "com.apple.product-type.framework";
 		};
 		EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */ = {
@@ -1896,7 +1973,7 @@
 			);
 			name = RxSwift;
 			productName = RxSwift;
-			productReference = 809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */;
+			productReference = 809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift */;
 			productType = "com.apple.product-type.framework";
 		};
 		FAA00B4FD1EA27F31268B6392D8A1330 /* Pods-OpenWeatherChallenge */ = {
@@ -1919,7 +1996,7 @@
 			);
 			name = "Pods-OpenWeatherChallenge";
 			productName = Pods_OpenWeatherChallenge;
-			productReference = F2507D0DB78A0630864E4ADAE604311D /* Pods_OpenWeatherChallenge.framework */;
+			productReference = F2507D0DB78A0630864E4ADAE604311D /* Pods-OpenWeatherChallenge */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1940,12 +2017,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B165AE401AA2167421962B2C6B621516 /* Products */;
+			productRefGroup = 0AB5776B21CB8F46C4408A74B87E468C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */,
 				FAA00B4FD1EA27F31268B6392D8A1330 /* Pods-OpenWeatherChallenge */,
+				609973BA41EB2EA0733ECA990EE35BB5 /* Pods-OpenWeatherChallengeTests */,
 				7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */,
 				4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */,
 				EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */,
@@ -1991,6 +2069,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DBFBC99C6F5D9B1D57CC9D1C6E9209EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED371F101F73E8A21CB15AC8021B45F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2325,6 +2410,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		97A74C1912682C75E78129C89F01E62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01C22AE098485018E972B9B67740689 /* Pods-OpenWeatherChallengeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B04ABFAEE1046A9166FBFF8BABCC31AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2526,6 +2619,12 @@
 			target = 4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */;
 			targetProxy = 55DF29DA43207C28CE9D3384B0ED4A4D /* PBXContainerItemProxy */;
 		};
+		AC99D65A18FA3335AC77346757EF3217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OpenWeatherChallenge";
+			target = FAA00B4FD1EA27F31268B6392D8A1330 /* Pods-OpenWeatherChallenge */;
+			targetProxy = F85CB6088CA900595D3926D6ACDCFB66 /* PBXContainerItemProxy */;
+		};
 		B47387FDDF10155E23AF5A149540EAF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RxCocoa;
@@ -2646,6 +2745,44 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		55EC91AB4D0AE78538F937E85677CC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B9E787FD63D2A2629DF9F4F3C7DB95 /* Pods-OpenWeatherChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenWeatherChallengeTests/Pods-OpenWeatherChallengeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenWeatherChallengeTests/Pods-OpenWeatherChallengeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		577A24D81FA00BED9154F445BE58F743 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2918,6 +3055,43 @@
 			};
 			name = Release;
 		};
+		DB2046D496CF0EA26529C0BF07ABA706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51807BF0EFA25BAC7F4D5432CEF5D27E /* Pods-OpenWeatherChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenWeatherChallengeTests/Pods-OpenWeatherChallengeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenWeatherChallengeTests/Pods-OpenWeatherChallengeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DFFD31690F9CC8449FD1F803388E1D46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B9FEA87DC0060C7E26B6386EB78D0B8 /* SnapKit.release.xcconfig */;
@@ -2990,7 +3164,7 @@
 		};
 		F32F0BE6B1230550F3942BB118105ACE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E13ED1FCE4AF4D514CFDA05F28FCA3D /* Pods-OpenWeatherChallenge.release.xcconfig */;
+			baseConfigurationReference = B5C62AAAE44B69D14A18F292BD51B618 /* Pods-OpenWeatherChallenge.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3062,7 +3236,7 @@
 		};
 		FE43C1635B703227854089114D7EA645 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3695B3A48897FA0B86F147C458649F9D /* Pods-OpenWeatherChallenge.debug.xcconfig */;
+			baseConfigurationReference = 96B6225DA85E012497C2D860583E677F /* Pods-OpenWeatherChallenge.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3114,6 +3288,15 @@
 			buildConfigurations = (
 				C12D9C5CC8F2071662A98F549A9E6FB4 /* Debug */,
 				577A24D81FA00BED9154F445BE58F743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351A840740D3A9DFD440EFBF82102BBA /* Build configuration list for PBXNativeTarget "Pods-OpenWeatherChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2046D496CF0EA26529C0BF07ABA706 /* Debug */,
+				55EC91AB4D0AE78538F937E85677CC64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

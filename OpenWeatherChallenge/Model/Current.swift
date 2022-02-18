@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Current: Decodable {
+struct Current: Decodable, Equatable {
+    
     let dt: Double?
     let dtText: String?
     let weather: [WeatherDescription]?
@@ -51,5 +52,9 @@ struct Current: Decodable {
             }
         }
         return true
+    }
+    
+    static func == (lhs: Current, rhs: Current) -> Bool {
+        return lhs.dt == rhs.dt && lhs.dtText == rhs.dtText && lhs.weather == rhs.weather && lhs.main == rhs.main && lhs.sys == rhs.sys
     }
 }
