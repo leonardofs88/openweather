@@ -16,6 +16,6 @@ class ViewModel {
     }
     
     func loadWeather() -> Observable<Current> {
-        service.fetch().map { $0 }
+        service.fetchWeather().map { $0 }
     }
 }

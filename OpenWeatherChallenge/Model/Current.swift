@@ -14,11 +14,26 @@ struct Current: Decodable {
     let main: Main?
     let sys: System?
     
-    var formattedDate: String {
+    var fullDate: String {
        let date = Date(timeIntervalSince1970: self.dt ?? 0.0)
        let dateFormatter = DateFormatter()
-       dateFormatter.timeStyle = DateFormatter.Style.medium
-       dateFormatter.dateStyle = DateFormatter.Style.medium
+       dateFormatter.dateStyle = .medium
+       dateFormatter.timeZone = .current
+       return dateFormatter.string(from: date)
+    }
+    
+    var day: String {
+       let date = Date(timeIntervalSince1970: self.dt ?? 0.0)
+       let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd"
+       dateFormatter.timeZone = .current
+       return dateFormatter.string(from: date)
+    }
+    
+    var hour: String {
+       let date = Date(timeIntervalSince1970: self.dt ?? 0.0)
+       let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "hh"
        dateFormatter.timeZone = .current
        return dateFormatter.string(from: date)
     }

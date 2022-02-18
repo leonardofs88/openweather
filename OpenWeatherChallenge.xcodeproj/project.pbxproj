@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7F18745AA70F07DF3C5FC3DC /* Pods_OpenWeatherChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4EAE67F63FB85C5D6B9334 /* Pods_OpenWeatherChallenge.framework */; };
+		984F2BAC27BF281F007594B9 /* ForecastItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 984F2BAB27BF281F007594B9 /* ForecastItemViewCell.xib */; };
+		984F2BAE27BF3344007594B9 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F2BAD27BF3344007594B9 /* SectionHeader.swift */; };
 		98945C9127BD4CD000CF82FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98945C9027BD4CD000CF82FD /* AppDelegate.swift */; };
 		98945C9327BD4CD000CF82FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98945C9227BD4CD000CF82FD /* SceneDelegate.swift */; };
 		98945C9527BD4CD000CF82FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98945C9427BD4CD000CF82FD /* ViewController.swift */; };
@@ -41,13 +43,14 @@
 		98FDEF7327BE88F900FE4EDE /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FDEF7227BE88F900FE4EDE /* ForecastView.swift */; };
 		98FDEF7527BE95DA00FE4EDE /* CurrentWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FDEF7427BE95DA00FE4EDE /* CurrentWeatherViewModel.swift */; };
 		98FDEF7727BEA49D00FE4EDE /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FDEF7627BEA49C00FE4EDE /* ForecastViewModel.swift */; };
-		98FDEF7A27BEA71700FE4EDE /* ForecastItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FDEF7927BEA71700FE4EDE /* ForecastItemView.swift */; };
-		98FDEF7E27BEA74400FE4EDE /* ForecastItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98FDEF7D27BEA74400FE4EDE /* ForecastItemView.xib */; };
+		98FDEF7A27BEA71700FE4EDE /* ForecastItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FDEF7927BEA71700FE4EDE /* ForecastItemViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A582BDBF463CE057DC9E374 /* Pods-OpenWeatherChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherChallenge.debug.xcconfig"; path = "Target Support Files/Pods-OpenWeatherChallenge/Pods-OpenWeatherChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		4EAF3D9FFD851530DBB8DCC7 /* Pods-OpenWeatherChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherChallenge.release.xcconfig"; path = "Target Support Files/Pods-OpenWeatherChallenge/Pods-OpenWeatherChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		984F2BAB27BF281F007594B9 /* ForecastItemViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastItemViewCell.xib; sourceTree = "<group>"; };
+		984F2BAD27BF3344007594B9 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		98945C8D27BD4CD000CF82FD /* OpenWeatherChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWeatherChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98945C9027BD4CD000CF82FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98945C9227BD4CD000CF82FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,8 +86,7 @@
 		98FDEF7227BE88F900FE4EDE /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
 		98FDEF7427BE95DA00FE4EDE /* CurrentWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherViewModel.swift; sourceTree = "<group>"; };
 		98FDEF7627BEA49C00FE4EDE /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
-		98FDEF7927BEA71700FE4EDE /* ForecastItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastItemView.swift; sourceTree = "<group>"; };
-		98FDEF7D27BEA74400FE4EDE /* ForecastItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastItemView.xib; sourceTree = "<group>"; };
+		98FDEF7927BEA71700FE4EDE /* ForecastItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastItemViewCell.swift; sourceTree = "<group>"; };
 		9B4EAE67F63FB85C5D6B9334 /* Pods_OpenWeatherChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenWeatherChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -244,8 +246,9 @@
 		98FDEF7827BEA70100FE4EDE /* ForecastItemView */ = {
 			isa = PBXGroup;
 			children = (
-				98FDEF7927BEA71700FE4EDE /* ForecastItemView.swift */,
-				98FDEF7D27BEA74400FE4EDE /* ForecastItemView.xib */,
+				98FDEF7927BEA71700FE4EDE /* ForecastItemViewCell.swift */,
+				984F2BAB27BF281F007594B9 /* ForecastItemViewCell.xib */,
+				984F2BAD27BF3344007594B9 /* SectionHeader.swift */,
 			);
 			path = ForecastItemView;
 			sourceTree = "<group>";
@@ -312,11 +315,11 @@
 			files = (
 				98FDEF7127BE88D000FE4EDE /* ForecastView.xib in Resources */,
 				98945C9D27BD4CD300CF82FD /* LaunchScreen.storyboard in Resources */,
+				984F2BAC27BF281F007594B9 /* ForecastItemViewCell.xib in Resources */,
 				98945C9A27BD4CD300CF82FD /* Assets.xcassets in Resources */,
 				98945CAA27BD5E0300CF82FD /* ViewController.xib in Resources */,
 				98FDEF6E27BE848300FE4EDE /* ChartView.xib in Resources */,
 				98945C9827BD4CD000CF82FD /* Main.storyboard in Resources */,
-				98FDEF7E27BEA74400FE4EDE /* ForecastItemView.xib in Resources */,
 				98FDEF6727BDEE1F00FE4EDE /* CurrentWeatherView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,7 +389,7 @@
 				98FDEF5927BDD07100FE4EDE /* ViewModel.swift in Sources */,
 				98FDEF7327BE88F900FE4EDE /* ForecastView.swift in Sources */,
 				98FDEF5027BDB18900FE4EDE /* Temperature.swift in Sources */,
-				98FDEF7A27BEA71700FE4EDE /* ForecastItemView.swift in Sources */,
+				98FDEF7A27BEA71700FE4EDE /* ForecastItemViewCell.swift in Sources */,
 				98FDEF5C27BDD0F700FE4EDE /* ServiceProvider.swift in Sources */,
 				98945C9527BD4CD000CF82FD /* ViewController.swift in Sources */,
 				98FDEF6527BDE1A300FE4EDE /* ViewControllerProvider.swift in Sources */,
@@ -394,6 +397,7 @@
 				98FDEF6C27BE845900FE4EDE /* ChartView.swift in Sources */,
 				98945C9127BD4CD000CF82FD /* AppDelegate.swift in Sources */,
 				98FDEF7727BEA49D00FE4EDE /* ForecastViewModel.swift in Sources */,
+				984F2BAE27BF3344007594B9 /* SectionHeader.swift in Sources */,
 				98FDEF5F27BDDE0C00FE4EDE /* CurrentWeatherView.swift in Sources */,
 				989E393027BECE7A00865A18 /* System.swift in Sources */,
 				98945C9327BD4CD000CF82FD /* SceneDelegate.swift in Sources */,

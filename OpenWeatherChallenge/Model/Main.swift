@@ -27,6 +27,10 @@ struct Main: Decodable {
     let precipitation: Double?
     let pop: Double?
     
+    var temperature: String {
+        return String(format: "%.1f º", self.temp ?? 00)
+    }
+    
     var formattedDate: String {
         let date = Date(timeIntervalSince1970: self.dt ?? 0.0)
        let dateFormatter = DateFormatter()
