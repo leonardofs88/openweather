@@ -19,7 +19,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="TPa-B0-dFm" userLabel="Forecast Collection View">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <rect key="frame" x="15" y="0.0" width="384" height="896"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="5" id="9b1-2t-Rff">
                         <size key="itemSize" width="120" height="180"/>
@@ -31,10 +31,10 @@
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="TPa-B0-dFm" secondAttribute="trailing" id="7Ne-YB-ROq"/>
+                <constraint firstAttribute="trailing" secondItem="TPa-B0-dFm" secondAttribute="trailing" constant="15" id="7Ne-YB-ROq"/>
                 <constraint firstAttribute="bottom" secondItem="TPa-B0-dFm" secondAttribute="bottom" id="QDM-la-N5z"/>
                 <constraint firstItem="TPa-B0-dFm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ac3-vP-wLs"/>
-                <constraint firstItem="TPa-B0-dFm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xq6-kY-X1N"/>
+                <constraint firstItem="TPa-B0-dFm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="xq6-kY-X1N"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="131.8840579710145" y="73.660714285714278"/>
