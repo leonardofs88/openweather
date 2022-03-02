@@ -14,6 +14,8 @@ class ForecastView: BaseView {
     
     @IBOutlet weak var forecastCollectionView: UICollectionView!
     
+    var delegate: ViewControllerDelegate?
+    
     var viewModel: ForecastViewModel? {
         didSet {
             self.bindViewModel()
@@ -27,8 +29,12 @@ class ForecastView: BaseView {
     }
     
     private func bindViewModel() {
-        self.viewModel?.onGroupedDatesLoaded = { [weak self] in
+        self.viewModel?.onLoaded = { [weak self] in
             self?.configureView()
+        }
+        
+        self.viewModel?.onError = { [weak self] alert in
+            self?.delegate?.displayError(alert: alert)
         }
     }
     

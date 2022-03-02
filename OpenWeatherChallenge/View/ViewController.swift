@@ -10,6 +10,10 @@ import RxSwift
 import RxCocoa
 import SnapKit
 
+protocol ViewControllerDelegate {
+    func displayError(alert: UIAlertController)
+}
+
 class ViewController: UIViewController {
 
     var viewModel: ViewModel?
@@ -32,7 +36,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.viewModel?.loadWeather().subscribe(onNext: { [weak self] weather in
+        self.viewModel?.loadWeather().subscribe(onNext: { [weak self] weathers in
+            guard let weather = weathers.first else { return }
             self?.setupViews(with: weather)
         }, onError: { error in
             
@@ -57,6 +62,7 @@ class ViewController: UIViewController {
             }
             
             self.forecastView.viewModel = ForecastViewModel(service: ServiceProvider.service)
+            self.forecastView.delegate = self
             self.contentView.addSubview(self.forecastView)
             self.forecastView.snp.makeConstraints { make in
                 make.top.equalTo(self.currentWeatherView.snp.bottom).offset(16)
@@ -68,3 +74,10 @@ class ViewController: UIViewController {
     }
 }
 	
+extension ViewController: ViewControllerDelegate {
+    func displayError(alert: UIAlertController) {
+        DispatchQueue.main.async {
+            self.present(alert, animated: true, completion: nil)            
+        }
+    }
+}

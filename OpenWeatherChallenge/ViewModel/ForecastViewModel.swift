@@ -9,17 +9,14 @@ import Foundation
 import RxSwift
 
 typealias GroupedDate = (key: String, value: [Array<Current>.Element])?
-typealias OnLoaded = ()->Void
 
-class ForecastViewModel {
+class ForecastViewModel: BaseViewModel {
     let disposeBag = DisposeBag()
     let service: ServiceProtocol
     
-    var onGroupedDatesLoaded: OnLoaded?
-    
     var groupedDates: [GroupedDate]? {
         didSet {
-            self.onGroupedDatesLoaded?()
+            self.onLoaded?()
         }
     }
     
@@ -32,14 +29,13 @@ class ForecastViewModel {
     }
     
     func loadForecast() {
-        service.fetchForecast().subscribe { forecast in
-            if let list = forecast.list {
-                let dictionary = Dictionary(grouping: list, by: { $0.day })
-                let sortedDictionary = dictionary.sorted { $0.0 < $1.0 }
-                self.groupedDates = sortedDictionary
-            }
-        } onError: { error in
-            
+        service.fetch(type: .forecast).subscribe { [weak self] forecast in
+            let dictionary = Dictionary(grouping: forecast, by: { $0.day })
+            let sortedDictionary = dictionary.sorted { $0.0 < $1.0 }
+            self?.groupedDates = sortedDictionary
+        } onError: { [weak self] error in
+            guard let self = self else { return }
+            self.onError?(self.display(error: error as! APIError))
         }.disposed(by: disposeBag)
     }
     

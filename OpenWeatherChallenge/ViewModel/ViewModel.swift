@@ -15,7 +15,7 @@ class ViewModel {
         self.service = service
     }
     
-    func loadWeather() -> Observable<Current> {
-        service.fetchWeather().map { $0 }
+    func loadWeather() -> Observable<[Current]> {
+        service.fetch(type: .weather).map { $0 }
     }
 }
